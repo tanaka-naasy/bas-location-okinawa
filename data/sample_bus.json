@@ -16,6 +16,30 @@
       "from_stop": "旭橋",
       "to_stop": "上之屋",
       "status": "running"
-    }
+    },
+    {
+      "route_id": "OKI_120",
+      "route_name": "120番（名護西線）",
+      "direction": "名護バスターミナル方面",
+      "from_stop": "県庁北口",
+      "to_stop": "泊高橋",
+      "status": "running"
+    },
+    {
+      "route_id": "OKI_25",
+      "route_name": "25番（普天間線）",
+      "direction": "普天間方面",
+      "from_stop": "旭橋",
+      "to_stop": "上之屋",
+      "status": "running"
+    },
+    {
+      "route_id": "OKI_120",
+      "route_name": "120番（名護西線）",
+      "direction": "名護バスターミナル方面",
+      "from_stop": "県庁北口",
+      "to_stop": "泊高橋",
+      "status": "running"
+    }    
   ]
 }
