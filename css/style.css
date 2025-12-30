@@ -1,0 +1,58 @@
+/* 全体 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+/* メイン */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* タイトル */
+h1 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+/* バス一覧 */
+#bus-list {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* 1路線 */
+.bus-item {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.bus-item:last-child {
+  border-bottom: none;
+}
+
+/* 路線名 */
+.route-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* 区間表示 */
+.bus-section {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* 更新時刻 */
+.updated-time {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #777;
+}
