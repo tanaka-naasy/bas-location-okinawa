@@ -1,9 +1,16 @@
-import { getBusData } from "./busdata.js";
+import { selectDisplayBuses } from "./busdata.js";
 import { renderBusList } from "./render.js";
 
 async function init() {
-  const busData = await getBusData();
-  renderBusList(busData);
+  try {
+    const res = await fetch("data/sample_bus.json");
+    const json = await res.json();
+
+    const displayBuses = selectDisplayBuses(json.buses);
+    renderBusList(displayBuses);
+  } catch (error) {
+    console.error("初期化エラー:", error);
+  }
 }
 
 init();
