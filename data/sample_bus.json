@@ -1,0 +1,13 @@
+{
+  "updated_at": "2025-01-10T12:01:00+09:00",
+  "buses": [
+    {
+      "route_id": "OKI_120",
+      "route_name": "120番（名護西線）",
+      "direction": "名護バスターミナル方面",
+      "from_stop": "県庁北口",
+      "to_stop": "泊高橋",
+      "status": "running"
+    }
+  ]
+}
